@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8D05661DFC5C3A007B6947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05651DFC5C3A007B6947 /* AppDelegate.swift */; };
+		9C8D05681DFC5C3A007B6947 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05671DFC5C3A007B6947 /* GameScene.sks */; };
+		9C8D056A1DFC5C3A007B6947 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05691DFC5C3A007B6947 /* Actions.sks */; };
+		9C8D056C1DFC5C3A007B6947 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D056B1DFC5C3A007B6947 /* GameScene.swift */; };
+		9C8D056E1DFC5C3A007B6947 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D056D1DFC5C3A007B6947 /* GameViewController.swift */; };
+		9C8D05711DFC5C3A007B6947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D056F1DFC5C3A007B6947 /* Main.storyboard */; };
+		9C8D05731DFC5C3A007B6947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05721DFC5C3A007B6947 /* Assets.xcassets */; };
+		9C8D05761DFC5C3A007B6947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05741DFC5C3A007B6947 /* LaunchScreen.storyboard */; };
+		9C8D05811DFC5C3A007B6947 /* Wild_WingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05801DFC5C3A007B6947 /* Wild_WingsTests.swift */; };
+		9C8D058C1DFC5C3A007B6947 /* Wild_WingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D058B1DFC5C3A007B6947 /* Wild_WingsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8D057D1DFC5C3A007B6947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8D055A1DFC5C39007B6947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8D05611DFC5C39007B6947;
+			remoteInfo = "Wild Wings";
+		};
+		9C8D05881DFC5C3A007B6947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8D055A1DFC5C39007B6947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8D05611DFC5C39007B6947;
+			remoteInfo = "Wild Wings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C8D05621DFC5C39007B6947 /* Wild Wings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wild Wings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D05651DFC5C3A007B6947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8D05671DFC5C3A007B6947 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9C8D05691DFC5C3A007B6947 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9C8D056B1DFC5C3A007B6947 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9C8D056D1DFC5C3A007B6947 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9C8D05701DFC5C3A007B6947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C8D05721DFC5C3A007B6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8D05751DFC5C3A007B6947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8D05771DFC5C3A007B6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8D057C1DFC5C3A007B6947 /* Wild WingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild WingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D05801DFC5C3A007B6947 /* Wild_WingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wild_WingsTests.swift; sourceTree = "<group>"; };
+		9C8D05821DFC5C3A007B6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8D05871DFC5C3A007B6947 /* Wild WingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild WingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D058B1DFC5C3A007B6947 /* Wild_WingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wild_WingsUITests.swift; sourceTree = "<group>"; };
+		9C8D058D1DFC5C3A007B6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8D055F1DFC5C39007B6947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8D05791DFC5C3A007B6947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8D05841DFC5C3A007B6947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8D05591DFC5C39007B6947 = {
+			isa = PBXGroup;
+			children = (
+				9C8D05641DFC5C39007B6947 /* Wild Wings */,
+				9C8D057F1DFC5C3A007B6947 /* Wild WingsTests */,
+				9C8D058A1DFC5C3A007B6947 /* Wild WingsUITests */,
+				9C8D05631DFC5C39007B6947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8D05631DFC5C39007B6947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D05621DFC5C39007B6947 /* Wild Wings.app */,
+				9C8D057C1DFC5C3A007B6947 /* Wild WingsTests.xctest */,
+				9C8D05871DFC5C3A007B6947 /* Wild WingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8D05641DFC5C39007B6947 /* Wild Wings */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D05651DFC5C3A007B6947 /* AppDelegate.swift */,
+				9C8D05671DFC5C3A007B6947 /* GameScene.sks */,
+				9C8D05691DFC5C3A007B6947 /* Actions.sks */,
+				9C8D056B1DFC5C3A007B6947 /* GameScene.swift */,
+				9C8D056D1DFC5C3A007B6947 /* GameViewController.swift */,
+				9C8D056F1DFC5C3A007B6947 /* Main.storyboard */,
+				9C8D05721DFC5C3A007B6947 /* Assets.xcassets */,
+				9C8D05741DFC5C3A007B6947 /* LaunchScreen.storyboard */,
+				9C8D05771DFC5C3A007B6947 /* Info.plist */,
+			);
+			path = "Wild Wings";
+			sourceTree = "<group>";
+		};
+		9C8D057F1DFC5C3A007B6947 /* Wild WingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D05801DFC5C3A007B6947 /* Wild_WingsTests.swift */,
+				9C8D05821DFC5C3A007B6947 /* Info.plist */,
+			);
+			path = "Wild WingsTests";
+			sourceTree = "<group>";
+		};
+		9C8D058A1DFC5C3A007B6947 /* Wild WingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D058B1DFC5C3A007B6947 /* Wild_WingsUITests.swift */,
+				9C8D058D1DFC5C3A007B6947 /* Info.plist */,
+			);
+			path = "Wild WingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C8D05611DFC5C39007B6947 /* Wild Wings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8D05901DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild Wings" */;
+			buildPhases = (
+				9C8D055E1DFC5C39007B6947 /* Sources */,
+				9C8D055F1DFC5C39007B6947 /* Frameworks */,
+				9C8D05601DFC5C39007B6947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wild Wings";
+			productName = "Wild Wings";
+			productReference = 9C8D05621DFC5C39007B6947 /* Wild Wings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C8D057B1DFC5C3A007B6947 /* Wild WingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8D05931DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild WingsTests" */;
+			buildPhases = (
+				9C8D05781DFC5C3A007B6947 /* Sources */,
+				9C8D05791DFC5C3A007B6947 /* Frameworks */,
+				9C8D057A1DFC5C3A007B6947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8D057E1DFC5C3A007B6947 /* PBXTargetDependency */,
+			);
+			name = "Wild WingsTests";
+			productName = "Wild WingsTests";
+			productReference = 9C8D057C1DFC5C3A007B6947 /* Wild WingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C8D05861DFC5C3A007B6947 /* Wild WingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8D05961DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild WingsUITests" */;
+			buildPhases = (
+				9C8D05831DFC5C3A007B6947 /* Sources */,
+				9C8D05841DFC5C3A007B6947 /* Frameworks */,
+				9C8D05851DFC5C3A007B6947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8D05891DFC5C3A007B6947 /* PBXTargetDependency */,
+			);
+			name = "Wild WingsUITests";
+			productName = "Wild WingsUITests";
+			productReference = 9C8D05871DFC5C3A007B6947 /* Wild WingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8D055A1DFC5C39007B6947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Martin Meincke";
+				TargetAttributes = {
+					9C8D05611DFC5C39007B6947 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LG3864Q8PK;
+						ProvisioningStyle = Automatic;
+					};
+					9C8D057B1DFC5C3A007B6947 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LG3864Q8PK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C8D05611DFC5C39007B6947;
+					};
+					9C8D05861DFC5C3A007B6947 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LG3864Q8PK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C8D05611DFC5C39007B6947;
+					};
+				};
+			};
+			buildConfigurationList = 9C8D055D1DFC5C39007B6947 /* Build configuration list for PBXProject "Wild Wings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C8D05591DFC5C39007B6947;
+			productRefGroup = 9C8D05631DFC5C39007B6947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8D05611DFC5C39007B6947 /* Wild Wings */,
+				9C8D057B1DFC5C3A007B6947 /* Wild WingsTests */,
+				9C8D05861DFC5C3A007B6947 /* Wild WingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8D05601DFC5C39007B6947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8D05711DFC5C3A007B6947 /* Main.storyboard in Resources */,
+				9C8D05681DFC5C3A007B6947 /* GameScene.sks in Resources */,
+				9C8D05731DFC5C3A007B6947 /* Assets.xcassets in Resources */,
+				9C8D05761DFC5C3A007B6947 /* LaunchScreen.storyboard in Resources */,
+				9C8D056A1DFC5C3A007B6947 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8D057A1DFC5C3A007B6947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8D05851DFC5C3A007B6947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8D055E1DFC5C39007B6947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8D056C1DFC5C3A007B6947 /* GameScene.swift in Sources */,
+				9C8D056E1DFC5C3A007B6947 /* GameViewController.swift in Sources */,
+				9C8D05661DFC5C3A007B6947 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8D05781DFC5C3A007B6947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8D05811DFC5C3A007B6947 /* Wild_WingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8D05831DFC5C3A007B6947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8D058C1DFC5C3A007B6947 /* Wild_WingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C8D057E1DFC5C3A007B6947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8D05611DFC5C39007B6947 /* Wild Wings */;
+			targetProxy = 9C8D057D1DFC5C3A007B6947 /* PBXContainerItemProxy */;
+		};
+		9C8D05891DFC5C3A007B6947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8D05611DFC5C39007B6947 /* Wild Wings */;
+			targetProxy = 9C8D05881DFC5C3A007B6947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C8D056F1DFC5C3A007B6947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8D05701DFC5C3A007B6947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8D05741DFC5C3A007B6947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8D05751DFC5C3A007B6947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8D058E1DFC5C3A007B6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8D058F1DFC5C3A007B6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8D05911DFC5C3A007B6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild Wings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drades.Wild-Wings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C8D05921DFC5C3A007B6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild Wings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drades.Wild-Wings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C8D05941DFC5C3A007B6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild WingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drades.Wild-WingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wild Wings.app/Wild Wings";
+			};
+			name = Debug;
+		};
+		9C8D05951DFC5C3A007B6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild WingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drades.Wild-WingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wild Wings.app/Wild Wings";
+			};
+			name = Release;
+		};
+		9C8D05971DFC5C3A007B6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild WingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drades.Wild-WingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wild Wings";
+			};
+			name = Debug;
+		};
+		9C8D05981DFC5C3A007B6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild WingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drades.Wild-WingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wild Wings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8D055D1DFC5C39007B6947 /* Build configuration list for PBXProject "Wild Wings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8D058E1DFC5C3A007B6947 /* Debug */,
+				9C8D058F1DFC5C3A007B6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8D05901DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild Wings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8D05911DFC5C3A007B6947 /* Debug */,
+				9C8D05921DFC5C3A007B6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C8D05931DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild WingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8D05941DFC5C3A007B6947 /* Debug */,
+				9C8D05951DFC5C3A007B6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C8D05961DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild WingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8D05971DFC5C3A007B6947 /* Debug */,
+				9C8D05981DFC5C3A007B6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8D055A1DFC5C39007B6947 /* Project object */;
+}
