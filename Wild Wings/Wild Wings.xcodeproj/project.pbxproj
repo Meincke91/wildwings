@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9C8D05661DFC5C3A007B6947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05651DFC5C3A007B6947 /* AppDelegate.swift */; };
-		9C8D05681DFC5C3A007B6947 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05671DFC5C3A007B6947 /* GameScene.sks */; };
-		9C8D056A1DFC5C3A007B6947 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05691DFC5C3A007B6947 /* Actions.sks */; };
 		9C8D056C1DFC5C3A007B6947 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D056B1DFC5C3A007B6947 /* GameScene.swift */; };
 		9C8D056E1DFC5C3A007B6947 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D056D1DFC5C3A007B6947 /* GameViewController.swift */; };
 		9C8D05711DFC5C3A007B6947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D056F1DFC5C3A007B6947 /* Main.storyboard */; };
-		9C8D05731DFC5C3A007B6947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05721DFC5C3A007B6947 /* Assets.xcassets */; };
 		9C8D05761DFC5C3A007B6947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05741DFC5C3A007B6947 /* LaunchScreen.storyboard */; };
 		9C8D05811DFC5C3A007B6947 /* Wild_WingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05801DFC5C3A007B6947 /* Wild_WingsTests.swift */; };
 		9C8D058C1DFC5C3A007B6947 /* Wild_WingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D058B1DFC5C3A007B6947 /* Wild_WingsUITests.swift */; };
+		9C8D05A31DFC96A9007B6947 /* ActionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05991DFC96A9007B6947 /* ActionObject.swift */; };
+		9C8D05A41DFC96A9007B6947 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D059A1DFC96A9007B6947 /* Array2D.swift */; };
+		9C8D05A61DFC96A9007B6947 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D059C1DFC96A9007B6947 /* Background.swift */; };
+		9C8D05A71DFC96A9007B6947 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D059D1DFC96A9007B6947 /* Base.lproj */; };
+		9C8D05A81DFC96A9007B6947 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D059E1DFC96A9007B6947 /* Character.swift */; };
+		9C8D05A91DFC96A9007B6947 /* CharacterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D059F1DFC96A9007B6947 /* CharacterControl.swift */; };
+		9C8D05AA1DFC96A9007B6947 /* GameSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05A01DFC96A9007B6947 /* GameSceneViewController.swift */; };
+		9C8D05AB1DFC96A9007B6947 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05A11DFC96A9007B6947 /* Obstacle.swift */; };
+		9C8D05AC1DFC96A9007B6947 /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D05A21DFC96A9007B6947 /* Wall.swift */; };
+		9C8D05D61DFCC9C1007B6947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D05D51DFCC9C1007B6947 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +46,9 @@
 /* Begin PBXFileReference section */
 		9C8D05621DFC5C39007B6947 /* Wild Wings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wild Wings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8D05651DFC5C3A007B6947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C8D05671DFC5C3A007B6947 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9C8D05691DFC5C3A007B6947 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9C8D056B1DFC5C3A007B6947 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9C8D056D1DFC5C3A007B6947 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9C8D05701DFC5C3A007B6947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C8D05721DFC5C3A007B6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C8D05751DFC5C3A007B6947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C8D05771DFC5C3A007B6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C8D057C1DFC5C3A007B6947 /* Wild WingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild WingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,16 @@
 		9C8D05871DFC5C3A007B6947 /* Wild WingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild WingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8D058B1DFC5C3A007B6947 /* Wild_WingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wild_WingsUITests.swift; sourceTree = "<group>"; };
 		9C8D058D1DFC5C3A007B6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8D05991DFC96A9007B6947 /* ActionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionObject.swift; sourceTree = "<group>"; };
+		9C8D059A1DFC96A9007B6947 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		9C8D059C1DFC96A9007B6947 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		9C8D059D1DFC96A9007B6947 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		9C8D059E1DFC96A9007B6947 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9C8D059F1DFC96A9007B6947 /* CharacterControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterControl.swift; sourceTree = "<group>"; };
+		9C8D05A01DFC96A9007B6947 /* GameSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneViewController.swift; sourceTree = "<group>"; };
+		9C8D05A11DFC96A9007B6947 /* Obstacle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		9C8D05A21DFC96A9007B6947 /* Wall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
+		9C8D05D51DFCC9C1007B6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 		9C8D05591DFC5C39007B6947 = {
 			isa = PBXGroup;
 			children = (
+				9C8D05D51DFCC9C1007B6947 /* Assets.xcassets */,
 				9C8D05641DFC5C39007B6947 /* Wild Wings */,
 				9C8D057F1DFC5C3A007B6947 /* Wild WingsTests */,
 				9C8D058A1DFC5C3A007B6947 /* Wild WingsUITests */,
@@ -103,13 +118,19 @@
 		9C8D05641DFC5C39007B6947 /* Wild Wings */ = {
 			isa = PBXGroup;
 			children = (
+				9C8D05991DFC96A9007B6947 /* ActionObject.swift */,
+				9C8D059A1DFC96A9007B6947 /* Array2D.swift */,
+				9C8D059C1DFC96A9007B6947 /* Background.swift */,
+				9C8D059D1DFC96A9007B6947 /* Base.lproj */,
+				9C8D059E1DFC96A9007B6947 /* Character.swift */,
+				9C8D059F1DFC96A9007B6947 /* CharacterControl.swift */,
+				9C8D05A01DFC96A9007B6947 /* GameSceneViewController.swift */,
+				9C8D05A11DFC96A9007B6947 /* Obstacle.swift */,
+				9C8D05A21DFC96A9007B6947 /* Wall.swift */,
 				9C8D05651DFC5C3A007B6947 /* AppDelegate.swift */,
-				9C8D05671DFC5C3A007B6947 /* GameScene.sks */,
-				9C8D05691DFC5C3A007B6947 /* Actions.sks */,
 				9C8D056B1DFC5C3A007B6947 /* GameScene.swift */,
 				9C8D056D1DFC5C3A007B6947 /* GameViewController.swift */,
 				9C8D056F1DFC5C3A007B6947 /* Main.storyboard */,
-				9C8D05721DFC5C3A007B6947 /* Assets.xcassets */,
 				9C8D05741DFC5C3A007B6947 /* LaunchScreen.storyboard */,
 				9C8D05771DFC5C3A007B6947 /* Info.plist */,
 			);
@@ -245,10 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8D05711DFC5C3A007B6947 /* Main.storyboard in Resources */,
-				9C8D05681DFC5C3A007B6947 /* GameScene.sks in Resources */,
-				9C8D05731DFC5C3A007B6947 /* Assets.xcassets in Resources */,
+				9C8D05A71DFC96A9007B6947 /* Base.lproj in Resources */,
+				9C8D05D61DFCC9C1007B6947 /* Assets.xcassets in Resources */,
 				9C8D05761DFC5C3A007B6947 /* LaunchScreen.storyboard in Resources */,
-				9C8D056A1DFC5C3A007B6947 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8D056C1DFC5C3A007B6947 /* GameScene.swift in Sources */,
+				9C8D05AA1DFC96A9007B6947 /* GameSceneViewController.swift in Sources */,
+				9C8D05AB1DFC96A9007B6947 /* Obstacle.swift in Sources */,
+				9C8D05AC1DFC96A9007B6947 /* Wall.swift in Sources */,
 				9C8D056E1DFC5C3A007B6947 /* GameViewController.swift in Sources */,
+				9C8D05A81DFC96A9007B6947 /* Character.swift in Sources */,
+				9C8D05A31DFC96A9007B6947 /* ActionObject.swift in Sources */,
 				9C8D05661DFC5C3A007B6947 /* AppDelegate.swift in Sources */,
+				9C8D05A41DFC96A9007B6947 /* Array2D.swift in Sources */,
+				9C8D05A61DFC96A9007B6947 /* Background.swift in Sources */,
+				9C8D05A91DFC96A9007B6947 /* CharacterControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +554,7 @@
 				9C8D05921DFC5C3A007B6947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C8D05931DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild WingsTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +563,7 @@
 				9C8D05951DFC5C3A007B6947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C8D05961DFC5C3A007B6947 /* Build configuration list for PBXNativeTarget "Wild WingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +572,7 @@
 				9C8D05981DFC5C3A007B6947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
